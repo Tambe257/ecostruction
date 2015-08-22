@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background: #fff url(../images/overlay.png) repeat;
+}
+
+#bubble-row {
+  width: 100%;
+  height: 380px;
+  padding-left: 20px;
+  margin: 30px auto;
+} 
+
+.bubble {
+  width: 33.3%;
+  float: left;
+}
+
+.bubble section {
+  width: 87%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#copyright {
+  position: relative;
+  padding: 2em 0em;
+  text-align: center;
+  color: rgba(255,255,255,.2);
+  background: black;
+}
+
+#copyright .container {
+}
+
+#copyright a {
+  text-decoration: none;
+  color: rgba(255,255,255,.3);
+}   
+
+#container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content-main {
+  width: 66%;
+  height: 850px;
+}
+
+#content header h2 {
+  letter-spacing: -1px;
+  font-size: 3em;
+}
+
+.divider {
+  overflow: hidden;
+  border-top: 1px solid #dbdbdb;
+  clear: both;
+}
+
+
+.fifty {
+  width: 50%;
+}
+
+.fifty h2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 1em;
+}
+
+#footer{
+  position: relative;
+  background: #121212;
+  color: rgba(255,255,255,.4);
+  display: block;
+  overflow: auto;
+  padding: 1em 0;
+}
+
+#footer header h2 {
+  color: #FFF;
+}
+
+#footer img {
+  border-radius: 90px;
+  margin-left: 73px;
+}
+
+p.mission_statement {
+  font-size: 25px;
+}
+
+#header {
+  padding: 5em 0em;
+  text-align: center;
+  position: relative;
+  background: #ddd url(../images/header.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  border-bottom: 1px grey solid;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+header .byline {
+  display: block;
+  text-transform: uppercase;
+  margin: 0.5em 0 0 0;
+  padding: 0.5em 0 0.5em 0;
+  display: block;
+  text-transform: uppercase;
+}
+
+.homepage #header {
+  padding: 10em 0em;
+}
+
+.image {
+  display: inline-block;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.sectionimage img {
+  margin-left: 22px;
+  display: block;
+  width: 80%;
+  border-radius: 180px;
+}
+
+.image.featured {
+  display: block;
+  width: 100%;
+  margin: 0 0 2em 0;
+}
+
+.image.full {
+  display: block;
+  width: 100%;
+  margin: 0 0 2em 0;
+}
+
+.image.left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.image.centered {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+.image.centered img {
+  margin: 0 auto;
+  width: auto;
+}
+
+#logo {
+  padding: 0em 0em 0em 0em;
+  width: 100%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+#logo h1 {
+  color: white;
+  margin: 0px;
+}
+
+#logo h1 a {
+  display: block;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 150%;
+  font-weight: 900;
+  color: white;
+}
+
+#logo span {
+  display: block;
+  padding-top: 0em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: white;
+}     
+
+#main{
+  position: relative;
+  display: block;
+  overflow: auto;
+}
+
+#nav{
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+  
+#nav ul {
+  display: inline-block;
+  padding: 0em 0em;
+  border-radius: 40px;
+  margin-left: 256px;
+}
+
+#nav > ul > li {
+  display: inline-block;
+}
+
+#nav > ul > li:last-child{
+  padding-right: 0;
+}
+
+#nav > ul > li > a,
+#nav > ul > li > span{
+  display: block;
+  padding: 0.3em 2.0em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1em;
+  outline: 0;
+  color: #7b7b7b;
+}
+
+#nav > ul > li > a:hover {
+  color: #FFF;
+}
+
+#nav li.active a {
+  color: #FFF;
+}
+
+#nav > ul > li > ul {
+  display: none;
+}
+
+#navbar {
+  background-color: black;
+  width:100%;
+}
+
+.posted a {
+  color: white;
+  text-decoration: none;
+}
+
+.posted a:hover {
+  text-decoration: underline;  
+}
+
+.row>* {
+  float: left;
+}
+
+.sectionimage img {
+  margin: 0 0 20px 22px;
+  display: block;
+  width: 70%;
+  border-radius: 180px;
+}
+
+#sidebar {
+  width: 30%;
+  float: left;
+  margin-left: 23px;
+}
+
+#sidebar header {
+  margin-bottom: 2em;
+}
+
+#sidebar header h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.social {
+  position: relative;
+  padding: 0 10px 0 0;
+  top: -31px;
+  float: right;
+}
+
+.style1 {
+  padding-left: 55px;
+}
+
+ul.style1 li {
+  padding: 0.8em 0em;
+  line-height: 1.8em;
+  color: white;
+  font-size: 20px;
+
+}
+
+ul.default li {
+  padding: 0.5em;
+}
