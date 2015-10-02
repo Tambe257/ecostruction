@@ -1,34 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  list-style: none;
+#bathroom {
+  clear: both;
+  overflow: auto;
 }
-
-body {
-  font-family: 'Oxygen', sans-serif;
-  background: #fff url(../images/overlay.png) repeat;
-}
-
-#bubble-row {
-  width: 100%;
-  height: 380px;
-  padding-left: 20px;
-  margin: 30px auto;
-} 
 
 .bubble {
-  width: 33.3%;
-  float: left;
+  text-align: center;
 }
 
-.bubble section {
-  width: 87%;
+#bubbles {
+  margin: 5% 0 5% 0;
 }
 
-.clearfix {
-  clear: both;
+p.bubble-title {
+  font-size: 2rem;
 }
 
 #copyright {
@@ -39,43 +23,22 @@ body {
   background: black;
 }
 
-#copyright .container {
-}
-
 #copyright a {
   text-decoration: none;
   color: rgba(255,255,255,.3);
 }   
 
-#container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.content-main {
-  width: 66%;
-  height: 850px;
-}
-
-#content header h2 {
-  letter-spacing: -1px;
-  font-size: 3em;
-}
-
 .divider {
   overflow: hidden;
-  border-top: 1px solid #dbdbdb;
   clear: both;
+      border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
-.fifty {
-  width: 50%;
-}
-
-.fifty h2 {
-  font-size: 2.5em;
-  margin-top: 20px;
+#exterior {
+  clear: both;
+  overflow: auto;
 }
 
 footer {
@@ -97,82 +60,23 @@ footer {
 
 #footer img {
   border-radius: 90px;
-  margin-left: 73px;
-}
-
-p.mission_statement {
-  font-size: 25px;
 }
 
 #header {
-  padding: 5em 0em;
-  text-align: center;
-  position: relative;
-  background: #ddd url(../images/header.jpg) no-repeat center;
+  background-color: black;
+  width:100%;
+}
+
+.hero {
+  background: #ddd url(../img/header.jpg) no-repeat center;
   background-size: cover;
-  height: 600px;
-  border-bottom: 1px grey solid;
+  height: 100vh;
+  overflow: hidden;
 }
 
-header {
-  margin-bottom: 2em;
-}
-
-header .byline {
-  display: block;
-  text-transform: uppercase;
-  margin: 0.5em 0 0 0;
-  padding: 0.5em 0 0.5em 0;
-  display: block;
-  text-transform: uppercase;
-}
-
-.homepage #header {
-  padding: 10em 0em;
-}
-
-.image {
-  display: inline-block;
-}
-
-.image img {
-  display: block;
-  width: 100%;
-  border-radius: 6px;
-}
-
-.sectionimage img {
-  margin-left: 22px;
-  display: block;
-  width: 80%;
-  border-radius: 180px;
-}
-
-.image.featured {
-  display: block;
-  width: 100%;
-  margin: 0 0 2em 0;
-}
-
-.image.full {
-  display: block;
-  width: 100%;
-  margin: 0 0 2em 0;
-}
-
-.image.left {
-  float: left;
-  margin: 0 2em 2em 0;
-}
-
-.image.centered {
-  display: block;
-  margin: 0 0 2em 0;
-}
-
-.image.centered img {
-  margin: 0 auto;
-  width: auto;
+#kitchen {
+  clear: both;
+  overflow: auto;
 }
 
 #logo {
@@ -192,7 +96,6 @@ header .byline {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 150%;
   font-weight: 900;
   color: white;
 }
@@ -204,12 +107,14 @@ header .byline {
   text-transform: uppercase;
   font-size: 1.2em;
   color: white;
-}     
+}  
 
-#main{
-  position: relative;
-  display: block;
-  overflow: auto;
+.mission-statement {
+  padding: 2.3rem;
+}
+
+.mission-statement p {
+  font-size: 25px;
 }
 
 #nav{
@@ -217,13 +122,13 @@ header .byline {
   margin: 0 auto;
   border-top: 1px grey solid;
   border-bottom: 1px grey solid;
+  text-align: center;
 }
   
 #nav ul {
   display: inline-block;
   padding: 0em 0em;
   border-radius: 40px;
-  margin-left: 256px;
 }
 
 #nav > ul > li {
@@ -244,11 +149,11 @@ header .byline {
   font-weight: 200;
   font-size: 1em;
   outline: 0;
-  color: #7b7b7b;
+  color: #FFF;
 }
 
 #nav > ul > li > a:hover {
-  color: #FFF;
+  color: #7b7b7b;
 }
 
 #nav li.active a {
@@ -259,44 +164,17 @@ header .byline {
   display: none;
 }
 
-#navbar {
-  background-color: black;
-  width:100%;
-}
-
-.posted a {
-  color: white;
-  text-decoration: none;
-}
-
-.posted a:hover {
-  text-decoration: underline;  
-}
-
-.row>* {
-  float: left;
+#outer-wrapper {
+  background: #fff url(../img/overlay.png) repeat
 }
 
 .sectionimage img {
-  margin: 0 0 20px 22px;
-  display: block;
   width: 70%;
   border-radius: 180px;
 }
 
-#sidebar {
-  width: 30%;
-  float: left;
-  margin-left: 23px;
-}
-
-#sidebar header {
-  margin-bottom: 2em;
-}
-
-#sidebar header h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+p.bubble-title {
+  font-size: 2rem;
 }
 
 .social {
@@ -307,17 +185,21 @@ header .byline {
 }
 
 .style1 {
-  padding-left: 55px;
-}
-
-ul.style1 li {
   padding: 0.8em 0em;
   line-height: 1.8em;
   color: white;
   font-size: 20px;
-
+  text-align: center;
 }
 
-ul.default li {
-  padding: 0.5em;
+.style1 h1, .style1 h3 {
+  color: white;
+} 
+
+.top-bar {
+  background-color: black;
+}
+
+.top-bar.expanded .title-area {
+  background: #000;
 }

@@ -1,14 +1,22 @@
+#gallery, #gallery2, #gallery3 {
 
-#gallery li, #gallery2 li, #gallery3 li {
-display: inline;
-margin-right: 0px;
-padding-left: 16px;
 }
 
-#gallery, #gallery2, #gallery3, #main-img, #main-img2, #main-img3 {
-background: url(images/bg_img.png) no-repeat 0 0;
-width: 792px;
-height: 593px;
+#main-img, #main-img2, #main-img3 {
+  max-height: 593px;
+}
+
+section#content header {
+  margin: 2% 2%;
+  text-align: center;
+}
+
+section#content header h2 {
+  font-size: 3rem;
+}
+
+section#content span.byline {
+  font-size: 1.5rem;
 }
 
 /* First Gallery */
@@ -38,24 +46,13 @@ ul.thumbs {
 }
 
 ul.thumbs li{
-  float:left;
-  margin: 0 20px 10px 0;
-}
-
-ul.thumbs li{
-  display:block;
+  display: inline-block;
   position:relative;
-  width:85px;
-  height:55px;
   border:4px solid transparent;
   font:bold 12px/25px Arial, sans-sarif;
   color:#515151;
   text-decoration:none;
   text-shadow:1px 1px 0px rgba(255,255,255,.25), inset 1px 1px 0px rgba(0,0,0,.15);
-}
-
-ul.thumbs img{
-  border:#333 solid 1px;
 }
 
 ul.thumbs span{
