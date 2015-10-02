@@ -15,10 +15,6 @@ section#content header h2 {
   font-size: 3rem;
 }
 
-section#content span.byline {
-  font-size: 1.5rem;
-}
-
 /* First Gallery */
 ul.slides{
   overflow:hidden;

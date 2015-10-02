@@ -31,9 +31,9 @@ p.bubble-title {
 .divider {
   overflow: hidden;
   clear: both;
-      border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 #exterior {
@@ -43,6 +43,14 @@ p.bubble-title {
 
 footer {
   margin-top: 1em;
+}
+
+footer header {
+  text-align: center;
+}
+
+footer header h2 {
+  font-size: 2rem;
 }
 
 #footer{
@@ -80,9 +88,9 @@ footer {
 }
 
 #logo {
-  padding: 0em 0em 0em 0em;
+  padding: 1em 0em 1em 0em;
   width: 100%;
-  margin: 5px auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -111,10 +119,11 @@ footer {
 
 .mission-statement {
   padding: 2.3rem;
+  text-align: center;
 }
 
 .mission-statement p {
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 
 #nav{
@@ -177,11 +186,8 @@ p.bubble-title {
   font-size: 2rem;
 }
 
-.social {
-  position: relative;
-  padding: 0 10px 0 0;
-  top: -31px;
-  float: right;
+section#content span.byline {
+  font-size: 1.6rem;
 }
 
 .style1 {
@@ -196,10 +202,61 @@ p.bubble-title {
   color: white;
 } 
 
+ul.thumbs {
+  text-align: center;
+}
+
 .top-bar {
   background-color: black;
 }
 
 .top-bar.expanded .title-area {
   background: #000;
+}
+
+/* footer */
+
+a#mail {
+  position: relative;
+  left: -285px;
+  opacity: 0.2;
+}
+
+a#instagram {
+  position: relative;
+  right: -285px;
+  opacity: 0.2;
+}
+
+.animate {
+  transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+}
+
+#mail.animate {
+  left: -35px;
+  opacity: 1;
+}
+
+.social {
+  background-color: black;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 2% 0%;
+}
+
+.social a:hover {
+  color: white;
+} 
+
+.social p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#instagram.animate {
+  right: -35px;
+  opacity: 1;
 }
